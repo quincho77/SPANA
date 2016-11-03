@@ -97,6 +97,10 @@ footer {
     background-color: #e2e2e2;
 }
 
+    footer p {
+        margin-left: 200px;
+    }
+
 
 /*Login form
 ---------------------------------------*/
