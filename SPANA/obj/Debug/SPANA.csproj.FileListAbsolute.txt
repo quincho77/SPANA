@@ -1,0 +1,5 @@
+C:\Users\QUINCHO\Documents\Visual Studio 2012\Projects\ASP NET\SPANA\SPANA\bin\SPANA.dll
+C:\Users\QUINCHO\Documents\Visual Studio 2012\Projects\ASP NET\SPANA\SPANA\bin\SPANA.pdb
+C:\Users\QUINCHO\Documents\Visual Studio 2012\Projects\ASP NET\SPANA\SPANA\obj\Debug\SPANA.csprojResolveAssemblyReference.cache
+C:\Users\QUINCHO\Documents\Visual Studio 2012\Projects\ASP NET\SPANA\SPANA\obj\Debug\SPANA.dll
+C:\Users\QUINCHO\Documents\Visual Studio 2012\Projects\ASP NET\SPANA\SPANA\obj\Debug\SPANA.pdb

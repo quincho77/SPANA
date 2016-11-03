@@ -1,0 +1,105 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    background-color: #e2e2e2;
+    font-family: "Segoe UI";  
+    background-color: #efeeef;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+
+/* main layout
+----------------------------------------------------------*/
+header {
+    height: 70px;
+    background-color: white;
+    margin: 0 auto;
+    border-top: solid 10px #000;
+}
+
+.contenido {
+    height: 442px;
+    background-color: #efeeef;
+    font-size: .85em;
+    position: relative;
+}
+
+.semicircle {
+    background-color: white;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    top: 55px;
+    margin-left: 195px;
+}
+
+.formulario-login {
+    border-right: solid 2px #c8c8c8;
+    margin-left: 200px;
+    width: 40%;
+    margin-top: 40px
+}
+
+.formulario-login h1 {
+    margin-bottom: 25px;        
+}
+
+.formulario-login h2 {
+        margin-bottom: 25px;
+}
+
+.formulario-login ul {
+        list-style: none;
+}
+
+.etiqueta-form {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.campos-form {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    color: #333;
+    font-size: 1.2em;
+    margin: 5px 0 25px 0;
+    padding: 5px;
+    width: 300px;
+}
+
+.submit {
+
+    border: 1px solid #787878;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 7px;
+    width: auto;
+    color: #333;    
+}
+
+footer {
+    height: 100px;
+    background-color: #e2e2e2;
+}
+
+
+/*Login form
+---------------------------------------*/
+
+
+
