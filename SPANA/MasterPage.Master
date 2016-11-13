@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="SPANA.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head runat="server">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>
+            <asp:ContentPlaceHolder ID="title" runat="server">
+            </asp:ContentPlaceHolder>
+        </title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+        <link href="Estilos/estilos.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <header>
+        </header>
+           
+        <section class="contenido">
+            <asp:ContentPlaceHolder ID="contentBody" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+
+        <footer>
+        <div class="contenedor-envolvente">
+            <div class="flotante-izquierda">
+                <p>&copy; SPANA</p>
+            </div>
+        </div>
+        </footer>
+    </body>
+</html>

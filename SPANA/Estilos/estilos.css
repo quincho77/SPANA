@@ -32,25 +32,25 @@ header {
     height: 442px;
     background-color: #efeeef;
     font-size: .85em;
-    position: relative;
+    /*position: relative;*/
 }
 
-.semicircle {
+/*.semicircle {
     background-color: white;
     height: 55px;
     width: 55px;
     border-radius: 50%;
     position: absolute;
-    z-index: 100;
-    top: 55px;
+    z-index: 10;
+    top: 0px;
     margin-left: 195px;
-}
+}*/
 
 .formulario-login {
     border-right: solid 2px #c8c8c8;
     margin-left: 200px;
     width: 40%;
-    margin-top: 40px
+    margin-top: 40px;
 }
 
 .formulario-login h1 {
