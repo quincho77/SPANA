@@ -58,12 +58,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Estilos\estilos.css" />
+    <Content Include="frmClientes.aspx" />
     <Content Include="frmInicioDeSesion.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmClientes.aspx.cs">
+      <DependentUpon>frmClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmClientes.aspx.designer.cs">
+      <DependentUpon>frmClientes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="frmInicioDeSesion.aspx.cs">
       <DependentUpon>frmInicioDeSesion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

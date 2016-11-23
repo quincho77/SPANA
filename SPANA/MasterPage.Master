@@ -16,6 +16,7 @@
 
     <body>
         <header>
+            <asp:ContentPlaceHolder ID="contentHeader" runat="server"></asp:ContentPlaceHolder>
         </header>
            
         <section class="contenido">

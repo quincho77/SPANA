@@ -19,7 +19,7 @@ h2 {
 }
 
 
-/* main layout
+/* Login layout
 ----------------------------------------------------------*/
 header {
     height: 70px;
@@ -34,17 +34,6 @@ header {
     font-size: .85em;
     /*position: relative;*/
 }
-
-/*.semicircle {
-    background-color: white;
-    height: 55px;
-    width: 55px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 10;
-    top: 0px;
-    margin-left: 195px;
-}*/
 
 .formulario-login {
     border-right: solid 2px #c8c8c8;
@@ -102,8 +91,40 @@ footer {
     }
 
 
-/*Login form
----------------------------------------*/
+/*  CLIENTES FORM*/
+header p {
+    color: #c8c8c8;
+    font-family: Rockwell, Consolas, "Courier New", monospace;
+    font-size: 1.95em;
+    margin-left: 200px;
+    margin-top: 16.5px;
+}
+
+.content-form {
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.content-form ul {
+    list-style: none;
+}
+
+.grouped-buttons {
+
+}
+.btn-registrar, .btn-mostrar{
+    background-color: #ccc;
+    padding: 10px;
+    font-weight: 600;
+    margin-left: 0px;
+    float: left;
+    border-radius: 2px;
+}
+
+.btn-mostrar {
+    border-left: 1px solid #808080;
+}
+
 
 
 
